@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<title>Christine Chorostecki LIS 786 Assignment 5, Grid Photo Gallery</title>
+</head>
+<style>
+ 
+ body {
+  background: #AFA8A6
+} 
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  align-items: start;
+  justify-items: center;
+  }
+.grid img {
+  border: 1px solid gray;
+  box-shadow: 5px 5px 5px #4d4c4d;
+  max-width: 100%;
+}
+.grid img:nth-child(2) {
+  grid-column: span 3;
+  grid-row: span 2;
+  }
+</style>
+<body>
+
+<div class="grid">
+ <img src="images/gardenofthegods.jpg">
+ <img src="images/gardenofthegods3.jpg">
+ <img src="images/gog.jpg">
+ <img src="images/colorado1.jpg">
+ <img src="images/creek.jpg">
+ <img src="images/window.jpg">
+ <img src="images/water-bowl.jpg">
+ <img src="images/helen-hunt-falls.jpg">
+ <img src="images/deer.jpg">
+ <img src="images/manitou.jpg">
+</div>
+</body>
+</html>
+
+
